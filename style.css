@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 .con1{
     max-width: 1200px;
     margin: auto;
@@ -182,6 +185,105 @@
     font-size: 35px;
     color: #6b8e23;
 }
+/* con5 */
+.con5 {
+    max-width: 1200px;
+    margin: auto;
+    padding: 80px 0;
+    text-align: center;
+    font-family: "DM Sans", Arial, sans-serif;
+}
+
+.con5 h2 {
+    text-align: left;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f2230;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.con5 h2 span {
+    color: #7f9a3e;
+}
+
+.cards5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.box5 {
+    width: 280px;
+    height: 300px;
+    padding: 25px;
+    margin-bottom: 30px;
+    text-align: left;
+    background-color: #f3f6f9;
+    border-radius: 17px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.195);
+}
+
+.yellow1 {
+    background-color: #E6F3F5;
+}
+.yellow2 {
+    background-color: #E6F3F5;
+}
+.yellow3 {
+    background-color: #EAEEFA;
+}
+.yellow4 {
+    background-color:#F9EEF3;
+}
+.yellow5 {
+    background-color: #F0FEEB;
+}
+.yellow6 {
+    background-color:#F3F7D9;
+}
+.yellow7{
+    background-color: #F3F7D9;
+}
+.yellow8{
+    background-color:#EAEEFA;
+}
+
+.food5 {
+    width: 140px;
+    height: 140px;
+    border-radius: 8px;
+}
+
+.box5 h3 {
+    margin-top: 20px;
+    font-size: 22px;
+    color: #1f2230;
+}
+
+.box5 p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #888;
+}
+
+.star5 {
+    display: block;
+    width: 80px;
+    margin-top: 10px;
+}
+
+.btn5 {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 14px 40px;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #7f9a3e;
+    border-radius: 30px;
+}
 
 
 @media(max-width:500px){
@@ -237,6 +339,24 @@
         width: 350px;
         justify-content: center;
         align-items: center;
+    }
+    .con5{
+        margin-top: -60px;
+    }
+    .con5 h2{
+         font-size: 30px;
+       
+
+    }
+    .cards5{
+        justify-content: center;
+        align-items: center;
+    }
+    .box5{
+        width: 350px;
+    }
+    .btn5{
+        display: none;
     }
 
 }
